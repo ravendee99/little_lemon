@@ -35,7 +35,6 @@
 	padding-inline-start: 0;
 	list-style-type: none;
 	transition: left 0.3s;
-	align-items: center;
 }
 
 .nav-bar-links.expanded {
@@ -43,7 +42,7 @@
 }
 
 .nav-bar-links li {
-	/* display: flex; */
+	display: flex;
 }
 
 .nav-bar-links a {
@@ -67,6 +66,7 @@
 @media only screen and (max-width: 992px) {
 	.nav-bar {
 		grid-template-columns: auto auto;
+		align-items: center;
 	}
 
 	.nav-bar-hamburger {
